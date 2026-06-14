@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jariane Santos | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio de Jariane Santos com projetos de moda, loja de roupas, empregos, curso de ingles e analise de dados."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Inicio">
+        <span class="brand-mark">JS</span>
+        <span>
+          <strong>Jariane Santos</strong>
+          <small>Portfolio digital</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Principal">
+        <a href="#projetos">Projetos</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow">Sites comerciais, educacionais e dashboards</p>
+          <h1>Portfolio completo para apresentar projetos digitais.</h1>
+          <p class="hero-text">
+            Criacao de experiencias responsivas para moda, lojas online,
+            vagas de emprego, cursos de ingles e analise de dados.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#projetos">Ver projetos</a>
+            <a class="button secondary" href="mailto:jarianenaval@gmail.com">Enviar email</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Resumo do portfolio">
+          <div>
+            <p class="panel-label">Jariane Santos</p>
+            <h2>5 projetos prontos</h2>
+          </div>
+          <div class="project-stack">
+            <span>Site de roupa</span>
+            <span>Loja de roupa</span>
+            <span>Site de emprego</span>
+            <span>Curso de ingles</span>
+            <span>Analise de dados</span>
+          </div>
+          <div class="mini-stats" aria-label="Numeros do portfolio">
+            <div>
+              <strong>100%</strong>
+              <span>responsivo</span>
+            </div>
+            <div>
+              <strong>HTML</strong>
+              <span>CSS + JS</span>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section" id="projetos">
+        <div class="section-heading">
+          <p class="eyebrow">Portfolio</p>
+          <h2>Projetos incluidos</h2>
+          <p>
+            Cada projeto tem identidade visual, objetivo claro e detalhes para
+            voce apresentar como estudo de caso.
+          </p>
+        </div>
+
+        <div class="filter-bar" role="group" aria-label="Filtrar projetos">
+          <button class="filter-button active" type="button" data-filter="todos">Todos</button>
+          <button class="filter-button" type="button" data-filter="moda">Moda</button>
+          <button class="filter-button" type="button" data-filter="loja">Loja</button>
+          <button class="filter-button" type="button" data-filter="emprego">Emprego</button>
+          <button class="filter-button" type="button" data-filter="curso">Curso</button>
+          <button class="filter-button" type="button" data-filter="dados">Dados</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-category="moda" data-project="site-roupa">
+            <img src="assets/site-roupa.png" alt="Previa visual do site de roupa">
+            <div class="project-card-body">
+              <span class="tag">Moda</span>
+              <h3>Site de Roupa</h3>
+              <p>Lookbook responsivo para colecoes, campanhas e apresentacao de pecas.</p>
+              <button class="text-button" type="button" data-open-project="site-roupa">Ver detalhes</button>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="loja" data-project="loja-roupa">
+            <img src="assets/loja-roupa.png" alt="Previa visual da loja de roupa">
+            <div class="project-card-body">
+              <span class="tag">E-commerce</span>
+              <h3>Loja de Roupa</h3>
+              <p>Vitrine com categorias, produtos em destaque, carrinho e chamada de compra.</p>
+              <button class="text-button" type="button" data-open-project="loja-roupa">Ver detalhes</button>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="emprego" data-project="site-emprego">
+            <img src="assets/site-emprego.png" alt="Previa visual do site de emprego">
+            <div class="project-card-body">
+              <span class="tag">Recrutamento</span>
+              <h3>Site de Emprego</h3>
+              <p>Busca de vagas, cards de oportunidades e area para candidatos.</p>
+              <button class="text-button" type="button" data-open-project="site-emprego">Ver detalhes</button>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="curso" data-project="curso-ingles">
+            <img src="assets/curso-ingles.png" alt="Previa visual do site de curso de ingles">
+            <div class="project-card-body">
+              <span class="tag">Educacao</span>
+              <h3>Curso de Ingles</h3>
+              <p>Pagina para curso, niveis, beneficios, depoimentos e inscricao.</p>
+              <button class="text-button" type="button" data-open-project="curso-ingles">Ver detalhes</button>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="dados" data-project="analise-dados">
+            <img src="assets/analise-dados.png" alt="Previa visual do site de analise de dados">
+            <div class="project-card-body">
+              <span class="tag">Dados</span>
+              <h3>Analise de Dados</h3>
+              <p>Dashboard com indicadores, graficos, metricas e leitura executiva.</p>
+              <button class="text-button" type="button" data-open-project="analise-dados">Ver detalhes</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section detail-section" aria-live="polite">
+        <div class="detail-media">
+          <img id="detail-image" src="assets/site-roupa.png" alt="Previa ampliada do projeto selecionado">
+        </div>
+
+        <div class="detail-copy">
+          <p class="eyebrow" id="detail-category">Moda</p>
+          <h2 id="detail-title">Site de Roupa</h2>
+          <p id="detail-description">
+            Projeto pensado para marcas de roupa que precisam apresentar
+            colecoes, campanhas e produtos com visual editorial.
+          </p>
+
+          <dl class="detail-list">
+            <div>
+              <dt>Objetivo</dt>
+              <dd id="detail-goal">Valorizar pecas e campanhas com uma experiencia elegante.</dd>
+            </div>
+            <div>
+              <dt>Recursos</dt>
+              <dd id="detail-features">Lookbook, colecoes, chamada para contato e layout responsivo.</dd>
+            </div>
+            <div>
+              <dt>Tecnologias</dt>
+              <dd id="detail-tech">HTML, CSS, JavaScript</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section specialties" id="especialidades">
+        <div class="section-heading">
+          <p class="eyebrow">Entrega</p>
+          <h2>O que este portfolio mostra</h2>
+        </div>
+
+        <div class="specialty-grid">
+          <article>
+            <span>01</span>
+            <h3>Layout responsivo</h3>
+            <p>Estrutura adaptada para celular, tablet e computador.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Projetos comerciais</h3>
+            <p>Paginas para vender, captar contato e apresentar servicos.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Organizacao de dados</h3>
+            <p>Dashboards e indicadores para transformar numeros em decisao.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contato">
+        <div>
+          <p class="eyebrow">Contato</p>
+          <h2>Vamos conectar</h2>
+          <p>
+            Portfolio criado para Jariane Santos com email, LinkedIn e GitHub
+            em destaque.
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <a href="mailto:jarianenaval@gmail.com">jarianenaval@gmail.com</a>
+          <a href="https://www.linkedin.com/search/results/people/?keywords=Jariane%20Santos" target="_blank" rel="noreferrer">
+            LinkedIn: Jariane Santos
+          </a>
+          <a href="https://github.com/search?q=Jariane%20Santos&type=users" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+          <button class="button primary" id="copy-email" type="button">Copiar email</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Jariane Santos</span>
+      <span>Portfolio feito em HTML, CSS e JavaScript.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
